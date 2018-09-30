@@ -43,7 +43,7 @@ a:hover {
   background-color: #f69679;
 }
 .section-title--left {
-  align-items: left;
+  align-items: normal;
 }
 .menu {
   margin-left: auto;
@@ -199,7 +199,7 @@ a:hover {
 }
 .app__image {
   width: 523px;
-  background-image: url(images/iphone@2x.png);
+  background-image: url(/assets/img/iphone@2x.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top;
@@ -226,12 +226,12 @@ a:hover {
   overflow: hidden;
 }
 .app__link--appstore {
-  background-image: url('images/appstore@2x.png');
+  background-image: url('/assets/img/appstore@2x.png');
   width: 112px;
   height: 39px;
 }
 .app__link--googleplay {
-  background-image: url('images/googleplay@2x.png');
+  background-image: url('/assets/img/googleplay@2x.png');
   width: 120px;
   height: 39px;
 }
