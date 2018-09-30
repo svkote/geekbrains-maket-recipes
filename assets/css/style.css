@@ -16,8 +16,52 @@ a:hover {
     text-decoration: none;
 }
 
+/* header */
+.header {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    padding: 0 10%;
+}
+
+.menu {
+    margin-left: auto;
+}
+.menu__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.menu__item {
+    margin-right: 30px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.menu__link {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.logo {
+    width: 129px;
+    height: 108px;
+}
+
+.logo__img {
+    width: 100%;
+}
+
+/* section main */
 .main {
     background-image: url('../img/bg.jpg');
     background-size: cover;
     height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
