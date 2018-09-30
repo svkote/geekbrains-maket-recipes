@@ -173,22 +173,23 @@ a:hover {
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: center;
+  margin-bottom: 20px;
 }
 .features__item--burger:before {
-  background-image: url('images/burger@2x.png');
+  background-image: url('../img/burger@2x.png');
 }
 .features__item--money:before {
-  background-image: url('images/money@2x.png');
+  background-image: url('../img/money@2x.png');
 }
 .features__item--man:before {
-  background-image: url('images/man@2x.png');
+  background-image: url('../img/man@2x.png');
 }
 .features__description {
   margin: 0;
   font-size: 16px;
   font-weight: 300;
   line-height: 18px;
-  color: #8b8b8b;
+  color: #a1a0a0;
 }
 .app {
   background-color: #f7f7f7;
