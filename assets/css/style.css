@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    position: relative;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.main {
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    height: 100vh;
+}
